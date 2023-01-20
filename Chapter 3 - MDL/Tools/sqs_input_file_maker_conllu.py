@@ -13,7 +13,7 @@ for s in parse_incr(inputfile):
     line = []
     for w in s:
         tag = w['upostag']
-		line.append(tag)
+        line.append(tag)
     vocab |= set(line)
     lines.append(line)
 
